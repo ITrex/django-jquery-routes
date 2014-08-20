@@ -29,6 +29,7 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['django_jquery_routes'],
+    zip_safe=False,
     package_data={
         'django_jquery_routes':
         ['static/django_jquery_routes/js/*',]
